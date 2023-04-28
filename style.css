@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    text-align: center;
+}
+.new-game{
+    width: 150px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: darkgreen;
+    font-size: 18px;
+}
+h3{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 149px;
+    margin-top: 68px;
+    font-size: 35px;
+}
+.score{
+    background-color: #080001;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: red;
+    font-size: 120px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.add-btn{
+    width: 155px;
+    height: 45px;
+    margin-top: 20px;
+}
+button{
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+}
